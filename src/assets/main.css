@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    font-family: "DM Sans", sans-serif !important;
+}
+
+html {
+    overflow-y: scroll; 
+}
+
 .btn{
     @apply block w-full px-12 py-3 text-sm font-medium text-white rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring
+}
+
+.button {
+    @apply p-2 text-sm text-center;
 }

@@ -1,0 +1,963 @@
+{
+    "mainTopics": {
+        "Communism": {
+            "image": ["http://commons.wikimedia.org/wiki/Special:FilePath/Comunismo.svg", "http://commons.wikimedia.org/wiki/Special:FilePath/Falce%20e%20martello.svg"],
+            "instance of": ["economic system", "political ideology"],
+            "flag image": ["http://commons.wikimedia.org/wiki/Special:FilePath/Red%20flag.svg"],
+            "Dewey Decimal Classification": ["335.43", "335.4", "320.532"],
+            "topic's main Wikimedia portal": ["Portal:Communism"],
+            "U.S. National Archives Identifier": ["10639138"],
+            "OmegaWiki Defined Meaning": ["351639"],
+            "described by source": ["Princeton Encyclopedia of American Political History (2010 edition)", "Great Soviet Encyclopedia (1926–1947)", "Brockhaus and Efron Encyclopedic Dictionary", "Catholic Encyclopedia", "The ABC of Communism", "Ottův slovník naučný", "Small Brockhaus and Efron Encyclopedic Dictionary", "The Nuttall Encyclopædia", "Armenian Soviet Encyclopedia"],
+            "Jewish Encyclopedia ID (Russian)": ["12174"],
+            "different from": ["communalism"],
+            "Commons category": ["Communism"],
+            "subreddit": ["communism"],
+            "pronunciation audio": ["http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q188%20%28deu%29-Sebastian%20Wallroth-Kommunismus.wav", "http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q5146%20%28por%29-NMaia-comunismo.wav"],
+            "opposite of": ["anti-communism"],
+            "on focus list of Wikimedia project": ["Wikipedia:Vital articles"],
+            "Basisklassifikation": ["89.15"],
+            "official color": ["red"],
+            "topic's main category": ["Category:Communism"],
+            "France24 topic ID (French)": ["communisme"],
+            "correct": false,
+            "parents": ["economic system", "political ideology", "communism"]
+        },
+        "Battle Of Britain": {
+            "country": ["United Kingdom"],
+            "image": ["http://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Britain.png"],
+            "instance of": ["air battle", "military operation"],
+            "different from": ["Battle of Britain"],
+            "location": ["United Kingdom"],
+            "part of": ["World War II"],
+            "Commons category": ["Battle of Britain"],
+            "has part": ["Adlertag"],
+            "start time": ["1940-07-10T00:00:00Z"],
+            "end time": ["1940-10-31T00:00:00Z"],
+            "point in time": ["1940-01-01T00:00:00Z"],
+            "coordinate location": ["Point(-2.0 54.0)"],
+            "topic's main category": ["Category:Battle of Britain"],
+            "Commons gallery": ["Battle of Britain"],
+            "spoken text audio": ["http://commons.wikimedia.org/wiki/Special:FilePath/NL-Slag%20om%20Engeland-article.ogg"],
+            "correct": true,
+            "parents": ["air battle", "military operation", "battle of britain"]
+        },
+        "Red Scare": {
+            "U.S. National Archives Identifier": ["10644050"],
+            "has effect": ["First Red Scare", "McCarthyism"],
+            "different from": ["Red Terror"],
+            "subclass of": ["incident", "fear"],
+            "Commons category": ["First Red Scare"],
+            "TV Tropes identifier": ["Main/RedScare"],
+            "spoken text audio": ["http://commons.wikimedia.org/wiki/Special:FilePath/Red%20Scare.ogg"],
+            "correct": false,
+            "parents": ["first red scare", "mccarthyism", "incident", "fear"]
+        },
+        "Joseph Stalin": {
+            "member of political party": ["Russian Social Democratic Labour Party (bolshevik)", "Russian Social Democratic Labour Party", "Mesame Dasi", "Communist Party of the Soviet Union"],
+            "native language": ["Georgian"],
+            "occupation": ["revolutionary", "journalist", "politician", "author"],
+            "employer": ["Brdzola", "Tbilisi Observatory", "Pravda"],
+            "signature": ["http://commons.wikimedia.org/wiki/Special:FilePath/Signature%20of%20Joseph%20Stalin.png"],
+            "place of burial": ["Lenin's Mausoleum", "Kremlin Wall Necropolis"],
+            "movement": ["Marxism–Leninism"],
+            "religion or world view": ["atheism"],
+            "award received": ["Order of Sukhbaatar", "Order of the White Lion", "Order of Lenin", "Medal \"For the Victory over Japan\" of Mongolia", "Czechoslovak War Cross 1939–1945", "Order of Victory", "Medal \"In Commemoration of the 800th Anniversary of Moscow\"", "Order of the Red Banner", "Time Person of the Year", "Honorary citizenship of České Budějovice", "Medal \"For the Defence of Moscow\"", "Medal \"For the Victory over Germany in the Great Patriotic War 1941–1945\"", "Order of Suvorov, 1st class", "Honorary citizen of Chrudim", "\"Hammer and Sickle\" gold medal", "Order of the Republic (Tuva)", "Hero of Socialist Labour", "Medal \"For the Victory over Japan\"", "Hero of the Soviet Union", "Hero of the Mongolian People's Republic", "Gold Star medal", "Order of the Red Star", "Jubilee Medal \"XX Years of the Workers' and Peasants' Red Army\"", "Honorary citizen of Prague"],
+            "ethnic group": ["Ossetians", "Georgians"],
+            "image": ["http://commons.wikimedia.org/wiki/Special:FilePath/Iosif%20Stalin.jpg", "http://commons.wikimedia.org/wiki/Special:FilePath/Stalin%20office.jpg", "http://commons.wikimedia.org/wiki/Special:FilePath/JStalin%20Secretary%20general%20CCCP%201942%20flipped.jpg", "http://commons.wikimedia.org/wiki/Special:FilePath/Stalin%20Full%20Image.jpg"],
+            "place of birth": ["Gori"],
+            "place of death": ["Kuntsevo Dacha"],
+            "sex or gender": ["male"],
+            "ISNI": ["0000 0001 2145 7825"],
+            "father": ["Besarion Jughashvili"],
+            "military branch": ["Red Army"],
+            "mother": ["Keke Geladze"],
+            "spouse": ["Nadezhda Alliluyeva", "Ekaterina Svanidze"],
+            "country of citizenship": ["Soviet Union", "Russian Socialist Federative Soviet Republic", "Russian Empire"],
+            "instance of": ["human"],
+            "position held": ["member of the Supreme Soviet of the Soviet Union", "Member of the Politburo of the CPSU Central Committee", "General Secretary of the Communist Party of the Soviet Union", "member of the Presidium of the Supreme Soviet of the USSR", "Member of the Russian Constituent Assembly", "Minister of Defence", "Chairman of the Council of People's Commissars", "member of the Supreme Soviet of the Byelorussian SSR of the 1st convocation", "Chairman of the Council of Ministers of the USSR", "Supreme Soviet of the Russian Soviet Federative Socialist Republic"],
+            "child": ["Svetlana Alliluyeva", "Vasily Dzhugashvili", "Alexander Davydov", "Artem Sergeev", "unnamed infant Jughashvili", "Konstantin Kuzakov", "Yakov Dzhugashvili"],
+            "family": ["Stalin family"],
+            "educated at": ["Gori school", "Tbilisi Theological Seminary"],
+            "Vatican Library ID (former scheme)": ["ADV11372466", "ADV10072265"],
+            "manner of death": ["natural causes", "homicide"],
+            "U.S. National Archives Identifier": ["10581030"],
+            "CANTIC ID (old)": ["a1043463x"],
+            "eye color": ["dark brown"],
+            "described by source": ["Q109971267", "Medvik", "Great Soviet Encyclopedia (1969–1978)", "Obalky knih.cz", "TASS Encyclopedia"],
+            "participant in": ["7th Congress of the Russian Communist Party", "Q25394187", "4th Congress of the Russian Social Democratic Labour Party", "2nd All-Russian Congress of Soviets", "12th Congress of the Russian Communist Party", "11th Congress of the Russian Communist Party", "18th Congress of the All-Union Communist Party", "Q16487395", "15th Congress of the All-Union Communist Party", "10th Congress of the Russian Communist Party", "9th Congress of the Russian Communist Party", "16th Congress of the All-Union Communist Party", "6th Congress of the Russian Social Democratic Labour Party", "1st All-Russian Congress of Soviets", "17th Congress of the All-Union Communist Party", "Tampere conference of 1905", "5th Congress of the Russian Social Democratic Labour Party", "19th Congress of the Communist Party of the Soviet Union", "8th Congress of the Russian Communist Party", "14th Congress of the All-Union Communist Party", "13th Congress of the Russian Communist Party"],
+            "nominated for": ["Nobel Peace Prize"],
+            "languages spoken, written or signed": ["Georgian", "Russian"],
+            "Jewish Encyclopedia ID (Russian)": ["13935"],
+            "nickname": ["Коба", "Uncle Joe"],
+            "birth name": ["იოსებ ბესარიონის ძე ჯუღაშვილი"],
+            "name in native language": ["Иосиф Виссарионович Джугашвили", "იოსებ ბესარიონის ძე ჯუღაშვილი"],
+            "University of Barcelona authority ID (obsolete)": ["a1370759"],
+            "Canadiana Authorities ID (former scheme)": ["0053F0853F"],
+            "NLP ID (unique)": ["A11807209"],
+            "hair color": ["brown hair"],
+            "work period (start)": ["1895-01-01T00:00:00Z"],
+            "height": ["1.68", "163", "168"],
+            "CiNii author ID (books)": ["DA00947887"],
+            "Apple Music artist ID (American version)": ["797639413"],
+            "sibling": ["Giorgi Jughashvili", "Joseph Davrichachvili", "Mikheil Jughashvili"],
+            "vehicle normally used": ["ZIS-115"],
+            "Commons category": ["Joseph Stalin"],
+            "military rank": ["Generalissimus of the Soviet Union", "Marshal of the Soviet Union"],
+            "Bashkir encyclopedia (Russian version) ID (former scheme)": ["3955"],
+            "unmarried partner": ["Lidia Pereprygina"],
+            "member of": ["Revolutionary Military Council", "Council of People's Commissars", "All-Russian Central Executive Committee", "Orgburo", "Council of Ministers of the USSR", "Academy of Sciences of the USSR"],
+            "Wolfram Language entity code": ["Entity[\"Person\", \"JosefStalin::2333v\"]"],
+            "on focus list of Wikimedia project": ["Wikiproject Nuremberg Trials", "Wikipedia:Vital articles"],
+            "cause of death": ["cerebral hemorrhage", "poisoning"],
+            "residence": ["Novaya Uda, Irkutsk Oblast", "Saint Petersburg", "Solvychegodsk", "Turukhansk", "Baku", "Narym"],
+            "Libris-URI": ["53hkl14p58hf71m"],
+            "date of birth": ["1878-12-18T00:00:00Z", "1879-12-21T00:00:00Z"],
+            "date of death": ["1953-03-05T00:00:00Z"],
+            "commander of (DEPRECATED)": ["Revolutionary Military Council", "Red Army", "Southern Front of the Russian Civil War", "North Caucasus Military District", "State Defense Committee", "Headquarters of the Supreme High Command"],
+            "conflict": ["Polish–Soviet War", "World War II", "Russian Civil War", "Battle of Moscow", "World War I", "Eastern Front"],
+            "RIA Novosti reference": ["42596093"],
+            "has works in the collection": ["NIOD Institute for War, Holocaust and Genocide Studies"],
+            "Krugosvet article": ["istoriya/STALIN_IOSIF_VISSARIONOVICH.html"],
+            "writing language": ["Russian"],
+            "family name": ["Stalin", "Jughashvili"],
+            "given name": ["Iosif"],
+            "influenced by": ["Lavrentiy Beria", "Karl Marx", "Vladimir Lenin"],
+            "pseudonym": ["Koba", "Сталин", "Staline"],
+            "Slovak National Library ID (VIAF)": ["vtls000553992"],
+            "copyright status as a creator": ["works protected by copyrights"],
+            "significant event": ["Turukhansk exile of Joseph Stalin"],
+            "facial hair": ["handlebar moustache", "moustache", "walrus moustache"],
+            "BHCL UUID": ["7bc6d92e-1864-4a3e-a5ae-7a678889539f"],
+            "topic's main category": ["Category:Joseph Stalin"],
+            "Commons gallery": ["Иосиф Виссарионович Сталин"],
+            "work location": ["Moscow", "Saint Petersburg"],
+            "allegiance": ["Soviet Union"],
+            "RSL ID (person)": ["000058540"],
+            "spoken text audio": ["http://commons.wikimedia.org/wiki/Special:FilePath/Stalin%20-%20namluven%C3%BD%20%C4%8Dl%C3%A1nek.ogg"],
+            "correct": false,
+            "parents": ["human", "joseph stalin"]
+        }
+    },
+    "topicsRanked": [{
+        "topic": "economic system",
+        "score": -4,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "political ideology",
+        "score": -4,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "communism",
+        "score": -4,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "First Red Scare",
+        "score": -4,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "incident",
+        "score": -4,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "fear",
+        "score": -4,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "Georgian",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Red Army",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Soviet Union",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "human",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Russian",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "იოსებ ბესარიონის ძე ჯუღაშვილი",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Revolutionary Military Council",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Saint Petersburg",
+        "score": -4,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Princeton Encyclopedia of American Political History (2010 edition)",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "Great Soviet Encyclopedia (1926–1947)",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "Brockhaus and Efron Encyclopedic Dictionary",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "Catholic Encyclopedia",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "The ABC of Communism",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "Ottův slovník naučný",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "Small Brockhaus and Efron Encyclopedic Dictionary",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "The Nuttall Encyclopædia",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "Armenian Soviet Encyclopedia",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "communalism",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "Communism",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "anti-communism",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "red",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "communisme",
+        "score": -2,
+        "belongsTo": ["Communism"]
+    }, {
+        "topic": "McCarthyism",
+        "score": -2,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "Red Terror",
+        "score": -2,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "Main/RedScare",
+        "score": -2,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "first red scare",
+        "score": -2,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "mccarthyism",
+        "score": -2,
+        "belongsTo": ["Red Scare"]
+    }, {
+        "topic": "Russian Social Democratic Labour Party (bolshevik)",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Russian Social Democratic Labour Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Mesame Dasi",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Communist Party of the Soviet Union",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "revolutionary",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "journalist",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "politician",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "author",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Brdzola",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Tbilisi Observatory",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Pravda",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Lenin's Mausoleum",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Kremlin Wall Necropolis",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Marxism–Leninism",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "atheism",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of Sukhbaatar",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of the White Lion",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of Lenin",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Medal \"For the Victory over Japan\" of Mongolia",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Czechoslovak War Cross 1939–1945",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of Victory",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Medal \"In Commemoration of the 800th Anniversary of Moscow\"",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of the Red Banner",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Time Person of the Year",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Honorary citizenship of České Budějovice",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Medal \"For the Defence of Moscow\"",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Medal \"For the Victory over Germany in the Great Patriotic War 1941–1945\"",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of Suvorov, 1st class",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Honorary citizen of Chrudim",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "\"Hammer and Sickle\" gold medal",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of the Republic (Tuva)",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Hero of Socialist Labour",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Medal \"For the Victory over Japan\"",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Hero of the Soviet Union",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Hero of the Mongolian People's Republic",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Gold Star medal",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Order of the Red Star",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Jubilee Medal \"XX Years of the Workers' and Peasants' Red Army\"",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Honorary citizen of Prague",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Ossetians",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Georgians",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Gori",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Kuntsevo Dacha",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "male",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "0000 0001 2145 7825",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Besarion Jughashvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Keke Geladze",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Nadezhda Alliluyeva",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Ekaterina Svanidze",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Russian Socialist Federative Soviet Republic",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Russian Empire",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "member of the Supreme Soviet of the Soviet Union",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Member of the Politburo of the CPSU Central Committee",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "General Secretary of the Communist Party of the Soviet Union",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "member of the Presidium of the Supreme Soviet of the USSR",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Member of the Russian Constituent Assembly",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Minister of Defence",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Chairman of the Council of People's Commissars",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "member of the Supreme Soviet of the Byelorussian SSR of the 1st convocation",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Chairman of the Council of Ministers of the USSR",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Supreme Soviet of the Russian Soviet Federative Socialist Republic",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Svetlana Alliluyeva",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Vasily Dzhugashvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Alexander Davydov",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Artem Sergeev",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "unnamed infant Jughashvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Konstantin Kuzakov",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Yakov Dzhugashvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Stalin family",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Gori school",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Tbilisi Theological Seminary",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "ADV11372466",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "ADV10072265",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "natural causes",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "homicide",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "a1043463x",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "dark brown",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Q109971267",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Medvik",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Great Soviet Encyclopedia (1969–1978)",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Obalky knih.cz",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "TASS Encyclopedia",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "7th Congress of the Russian Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Q25394187",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "4th Congress of the Russian Social Democratic Labour Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "2nd All-Russian Congress of Soviets",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "12th Congress of the Russian Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "11th Congress of the Russian Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "18th Congress of the All-Union Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Q16487395",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "15th Congress of the All-Union Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "10th Congress of the Russian Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "9th Congress of the Russian Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "16th Congress of the All-Union Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "6th Congress of the Russian Social Democratic Labour Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "1st All-Russian Congress of Soviets",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "17th Congress of the All-Union Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Tampere conference of 1905",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "5th Congress of the Russian Social Democratic Labour Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "19th Congress of the Communist Party of the Soviet Union",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "8th Congress of the Russian Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "14th Congress of the All-Union Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "13th Congress of the Russian Communist Party",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Nobel Peace Prize",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Коба",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Uncle Joe",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Иосиф Виссарионович Джугашвили",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "a1370759",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "0053F0853F",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "A11807209",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "brown hair",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "DA00947887",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Giorgi Jughashvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Joseph Davrichachvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Mikheil Jughashvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "ZIS-115",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Joseph Stalin",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Generalissimus of the Soviet Union",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Marshal of the Soviet Union",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Lidia Pereprygina",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Council of People's Commissars",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "All-Russian Central Executive Committee",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Orgburo",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Council of Ministers of the USSR",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Academy of Sciences of the USSR",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Wikiproject Nuremberg Trials",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "cerebral hemorrhage",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "poisoning",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Novaya Uda, Irkutsk Oblast",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Solvychegodsk",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Turukhansk",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Baku",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Narym",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "53hkl14p58hf71m",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Southern Front of the Russian Civil War",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "North Caucasus Military District",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "State Defense Committee",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Headquarters of the Supreme High Command",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Polish–Soviet War",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Russian Civil War",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Battle of Moscow",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "World War I",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Eastern Front",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "NIOD Institute for War, Holocaust and Genocide Studies",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "istoriya/STALIN_IOSIF_VISSARIONOVICH.html",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Stalin",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Jughashvili",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Iosif",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Lavrentiy Beria",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Karl Marx",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Vladimir Lenin",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Koba",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Сталин",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Staline",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "vtls000553992",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "works protected by copyrights",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Turukhansk exile of Joseph Stalin",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "handlebar moustache",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "moustache",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "walrus moustache",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "7bc6d92e-1864-4a3e-a5ae-7a678889539f",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Иосиф Виссарионович Сталин",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "Moscow",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "joseph stalin",
+        "score": -2,
+        "belongsTo": ["Joseph Stalin"]
+    }, {
+        "topic": "World War II",
+        "score": -1,
+        "belongsTo": ["Battle Of Britain", "Joseph Stalin"]
+    }, {
+        "topic": "Adlertag",
+        "score": 1,
+        "belongsTo": ["Battle Of Britain"]
+    }, {
+        "topic": "Point(-2.0 54.0)",
+        "score": 1,
+        "belongsTo": ["Battle Of Britain"]
+    }, {
+        "topic": "battle of britain",
+        "score": 1,
+        "belongsTo": ["Battle Of Britain"]
+    }, {
+        "topic": "United Kingdom",
+        "score": 2,
+        "belongsTo": ["Battle Of Britain"]
+    }, {
+        "topic": "air battle",
+        "score": 2,
+        "belongsTo": ["Battle Of Britain"]
+    }, {
+        "topic": "military operation",
+        "score": 2,
+        "belongsTo": ["Battle Of Britain"]
+    }, {
+        "topic": "Battle of Britain",
+        "score": 3,
+        "belongsTo": ["Battle Of Britain"]
+    }]
+}

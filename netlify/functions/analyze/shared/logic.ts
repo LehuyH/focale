@@ -102,7 +102,7 @@ export function filterWikiConcepts(concepts:{
     return concepts;
 }
 
-// Generates {keywords: [keywords], image: https://img} for each question_topic
+// Generates [...keywords] for each question_topic
 export function getParentTopicKeywords(topics:{
     [key:string]: any
 }) {
@@ -110,7 +110,7 @@ export function getParentTopicKeywords(topics:{
     const keys: string[] = []
     for (const key in topics) {
         //console.log(`Key: ${key}`)
-        if (key.toLowerCase().includes("instance") || key.toLowerCase().includes("subclass") || key.toLowerCase().includes("category") || key.toLowerCase().includes("effect")) {
+        if (key.toLowerCase().includes("instance") || key.toLowerCase().includes("subclass") || key.toLowerCase().includes("category") || key.toLowerCase().includes("effect") || key.toLowerCase().includes("part")) {
             keys.push(key)
         }
     }
@@ -186,6 +186,16 @@ export function rankAnswers(topicsWithProps: Record<string, Record<string,string
 
 export async function analyze(answers:IAnswer[]){
     const wikidata = await getConceptsFromWikidata(answers);
+    /*
+    const response = {
+        skipped: [] as string[],
+        idMappings: {} as Record<string, {
+            id: string;
+            correct: boolean;
+        }>,
+        concepts: {} as Record<string, string[]>
+    }
+    */
     const ranked = rankAnswers(wikidata);
     /*
     const response = {
@@ -197,11 +207,51 @@ export async function analyze(answers:IAnswer[]){
         }[]
     }
     */
-   ranked.topicsRanked.forEach(topic => {
-       
-   });    
+   // Populate a topic (Stalin) to image array
+    const questionsToImages: {
+        [key:string]: any
+    } = {}
+    for (const key in wikidata.concepts) {
+        if (wikidata.concepts.keys.includes("image"))
+        questionsToImages[key] = wikidata.concepts.image[0]
+        break
+    }
 
-    return ranked;
+    // Get audio
+    const questionsToAudio: {
+        [key:string]: any
+    } = {}
+    for (const key in wikidata.concepts) {
+        if (wikidata.concepts.keys.includes("audio")) {
+            questionsToAudio[key] = wikidata.concepts.image[0]
+            break
+        }
+    }
+
+
+    // For each subtopic (moustache), loop through their belongsTo and find something that has an image in questionsToImages
+    ranked.topicsRanked.forEach(topic => {
+
+        for (const question in topic.belongsTo) { // For each quesition (Stalin) in topic (moustache)
+            if (questionsToImages.keys.includes(question)) { // If Stalin has an image
+                topic["image"] =  questionsToImages[question]
+                break
+            }
+        }
+        for (const question in topic.belongsTo) {
+            if (questionsToAudio.keys.includes(question))
+        }
+    });    
+
+    return ranked; /*{
+        mainTopics: topicsWithProps,
+        topicsRanked: [] as {
+            topic: string,
+            score: number,
+            belongsTo: string[],
+            image: string
+        }[]
+    }*/
 }
 
 export function getDisplayInformation() {
