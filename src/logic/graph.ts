@@ -1,20 +1,15 @@
-const { v4: uuidv4 } = require('uuid')
+import { v4 as uuidv4 } from "uuid"
 
-//Import concepts.json
-const dataParsed = require('./concepts.json')
-
-// {id:uniqueNumber, label: 'Name', image: 'If there is one', title: 'Name', size: '60 is max'}
-// {'from':topic, 'to':instanceOfTopic, 'length':100, 'title':'whaterver','arrows':'to'}
-function toGraph(data) {
-    const nodes = []
-    const edges = []
+export function toGraph(data:any) {
+    const nodes = [] as any[]
+    const edges = [] as any[]
     const ideas = data.topicsRanked
     let maxRelevance = Number.MIN_SAFE_INTEGER
         // Stalin, Communism = questions
         // Economics, moustache = ideas
-    const questions = data.mainTopics
-    const questionNodeIDs = {}
-    const questionData = {}
+    const questions: any = data.mainTopics
+    const questionNodeIDs: any = {}
+    const questionData: any = {}
 
     //Create nodes for questions
     for (const q in questions) {
@@ -25,8 +20,11 @@ function toGraph(data) {
                 label: q,
                 image: '',
                 title: q,
-                size: 100,
-                color: (questions[q].correct) ? '#27ae60' : '#c0392b'
+                size: 500,
+                color: (questions[q].correct) ? '#059669' : '#ef4444',
+                font: {
+                    face: 'Quicksand'
+                }
             })
             questionData[questionNodeIDs[q]] = {
                 focaleTitle: q,
@@ -46,15 +44,22 @@ function toGraph(data) {
                     id: uuidv4(),
                     label: i.topic,
                     title: i.topic,
-                    size: 60,
+                    size: 500,
                     relevancy: ideaRelevancey,
-                    forceRelevant
+                    forceRelevant,
+                    font: {
+                        face: 'Quicksand'
+                    }
                 })
+                
             }
             const ideaNode = nodes.find(e => e.title.toLowerCase() === i.topic.toLowerCase())
+            questionData[ideaNode.id] = {
+                focaleTitle: ideaNode.title
+            }
 
             //Link idea to question
-            i.belongsTo.forEach(q => {
+            i.belongsTo.forEach((q:string) => {
                 //Skip if question is already linked
                 if (edges.find(e => e.from === questionNodeIDs[q] && e.to === ideaNode.id)) return
                     //Skip if it links to the same question
@@ -83,7 +88,3 @@ function toGraph(data) {
     }
 
 }
-
-
-const fs = require('fs')
-fs.writeFileSync('./graph.json', JSON.stringify(toGraph(dataParsed)))

@@ -10,7 +10,7 @@
         </section>
         <section class="h-[90vh]" ref="webRef"></section>
         <section
-            class="fixed z-10 top-0 right-0 bg-white h-full p-8 text-white transition-transform ease-in-out duration-500 shadow-md"
+            class="fixed z-10 top-0 right-0 bg-white h-full p-8 text-white transition-transform ease-in-out duration-200 shadow-md"
             :class="infoClasses"
             :style="`background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('${selectedTopic?.image}') no-repeat center center; background-size: cover;`"
         >
@@ -18,10 +18,9 @@
                 @click="selectedTopic = null"
                 class="block my-4 rounded-full w-12 h-12 text-white bg-blue-500 hover:bg-blue-600"
             >→</button>
-            <section v-if="selectedTopic" class="w-[600px]">
+            <section v-if="selectedTopic" class="w-[500px]">
                 <section class="p-4">
                     <h1 class="font-bold text-3xl">{{ selectedTopic.focaleTitle }}</h1>
-                    <p v-if="termData.description">{{termData.description}}</p>
                 </section>
                 <section class="p-4" v-if="selectedTopic.audio">
                     <h1 class="font-bold text-xl">Active Listening</h1>
@@ -30,11 +29,11 @@
                     </audio>
                 </section>
                 <section class="p-4" v-if="videoUrl">
-                    <h1 class="font-bold text-2xl mb-2">Watch It! 📺</h1>
+                    <h1 class="font-bold text-2xl">Watch It! 📺</h1>
                     <iframe
                         :src="videoUrl"
-                        class="border-2 border-indigo-500"
-                        style="width: 550px; height: calc(550px * 9 / 16);"
+                        class="border-2 border-indigo-500 mt-3"
+                        style="width: 475px; height: calc(475px * 9 / 16)"
                         frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
@@ -51,7 +50,7 @@ import { DataSet } from 'vis-data'
 import { computed, ref, onMounted, reactive, watch, nextTick } from 'vue';
 import localforage from 'localforage';
 import { useRoute } from "vue-router";
-import { toGraph } from '../logic/graph';
+import { toGraph } from '../../logic/graph';
 
 const selectedTopic = ref(null as any | null);
 const loading = ref(false);
@@ -60,10 +59,6 @@ let network = null as vis.Network | null;
 const minRelevancy = ref(0);
 const maxRelevancy = ref(0);
 const videoUrl = ref(null as string | null);
-const termData = reactive({
-    image: null as string | null,
-    description: null as string | null,
-});
 
 const id = useRoute().params.id as string;
 
@@ -197,7 +192,6 @@ onMounted(async () => {
 
     network.on("click", async (props) => {
         videoUrl.value = null;
-        termData.description = null;
         selectedTopic.value = (graphData.questionData as any)[props.nodes[0]]
 
         //Fetch the video
@@ -209,18 +203,6 @@ onMounted(async () => {
         }).then(res => res.json())
         if (videoReq.success) {
             videoUrl.value = videoReq.data;
-        }
-
-        //Fetch info
-        const infoReq = await fetch(`/.netlify/functions/info`, {
-            method: 'POST',
-            body: JSON.stringify({
-                search: selectedTopic.value.focaleTitle
-            })
-        }).then(res => res.json())
-        if (infoReq.success) {
-            termData.image = infoReq.data.image;
-            termData.description = infoReq.data.description;
         }
     })
 

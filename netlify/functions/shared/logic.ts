@@ -1,8 +1,10 @@
 import { fetch } from 'undici';
 
 export interface IAnswer {
+    question: string;
     answer: string;
     correct: boolean;
+    correctAnswer: string;
 }
 
 
@@ -25,7 +27,7 @@ export async function getConceptsFromWikidata(topics:IAnswer[]){
     //Get all the wikidata ids for the topics
     const topicLookups = topics.map(t=>{
         return{
-        topic: t.answer,
+        topic: t.correctAnswer,
         correct: t.correct,
         url: `https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${toSnakeCase(t.answer)}&language=en&format=json&limit=1`
         }
@@ -183,7 +185,18 @@ export function rankAnswers(topicsWithProps: Record<string, Record<string,string
 
     return response;
 }
-
+/*{
+    mainTopics: topicsWithProps,
+    topicsRanked: [] as {
+        topic: string,
+        score: number,
+        belongsTo: string[],
+        image: string,
+        audio: string,
+        video: string,
+        summary: string
+    }[]
+}*/
 export async function analyze(answers:IAnswer[]){
     const wikidata = await getConceptsFromWikidata(answers);
     /*
@@ -233,25 +246,23 @@ export async function analyze(answers:IAnswer[]){
     ranked.topicsRanked.forEach(topic => {
 
         for (const question in topic.belongsTo) { // For each quesition (Stalin) in topic (moustache)
-            if (questionsToImages.keys.includes(question)) { // If Stalin has an image
+            if (questionsToImages.keys && questionsToImages.keys.includes(question)) { // If Stalin has an image
                 topic["image"] =  questionsToImages[question]
                 break
             }
         }
         for (const question in topic.belongsTo) {
-            if (questionsToAudio.keys.includes(question))
+            if (questionsToAudio.keys && questionsToAudio.keys.includes(question)) {
+                topic["audio"] = questionsToAudio[question]
+                break
+            }
         }
+
     });    
 
-    return ranked; /*{
-        mainTopics: topicsWithProps,
-        topicsRanked: [] as {
-            topic: string,
-            score: number,
-            belongsTo: string[],
-            image: string
-        }[]
-    }*/
+    
+
+    return ranked; 
 }
 
 export function getDisplayInformation() {

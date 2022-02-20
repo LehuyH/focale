@@ -1,5 +1,5 @@
 import { Handler } from '@netlify/functions'
-import { analyze, IAnswer } from './shared/logic'
+import { analyze, IAnswer } from '../shared/logic'
 
 export const handler: Handler = async (event, context) => {
   try{
@@ -13,6 +13,7 @@ export const handler: Handler = async (event, context) => {
       })
     }
   }catch(e){
+    console.error(e)
     return {
       statusCode: 500,
       body: JSON.stringify({

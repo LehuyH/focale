@@ -1,32 +1,36 @@
 {
-  "name": "focale",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@netlify/functions": "^1.0.0",
-    "@tailwindcss/forms": "^0.4.0",
-    "@types/node": "^14.18.12",
-    "@types/uuid": "^8.3.4",
-    "localforage": "^1.10.0",
-    "sweetalert2": "^11.4.2",
-    "undici": "^4.14.1",
-    "uuid": "^8.3.2",
-    "vis-network": "^9.1.0",
-    "vue": "^3.2.25"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.0",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.23",
-    "typescript": "^4.5.5",
-    "vite": "^2.8.0",
-    "vite-plugin-voie": "^0.7.3",
-    "vue-tsc": "^0.29.8"
-  }
+    "name": "focale",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@netlify/functions": "^1.0.0",
+        "@tailwindcss/forms": "^0.4.0",
+        "@types/node": "^14.18.12",
+        "@types/uuid": "^8.3.4",
+        "compromise": "^13.11.4",
+        "localforage": "^1.10.0",
+        "netlify-cli": "^9.6.5",
+        "scrape-youtube": "^2.1.14",
+        "sweetalert2": "^11.4.2",
+        "undici": "^4.14.1",
+        "uuid": "^8.3.2",
+        "vis-network": "^9.1.0",
+        "vue": "^3.2.25",
+        "wikipedia-js": "^0.0.6"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.2.0",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.6",
+        "tailwindcss": "^3.0.23",
+        "typescript": "^4.5.5",
+        "vite": "^2.8.0",
+        "vite-plugin-voie": "^0.7.3",
+        "vue-tsc": "^0.29.8"
+    }
 }

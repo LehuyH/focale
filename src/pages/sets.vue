@@ -12,36 +12,29 @@ function deleteSet(id: string) {
 </script>
 
 <template>
-    <main class="text-white bg-gray-900 flex flex-col">
-        <div class="flex flex-col px-32 py-6 flex-1 max-w-screen-lg">
-            <h1 class="text-3xl font-semibold">Setsssssssss</h1>
+    <main class="text-white flex flex-col items-center">
+        <div class="flex flex-col px-16 py-6 flex-1 max-w-screen-lg w-full">
+            <h1 class="text-3xl font-semibold">view your sets</h1>
             <div v-for="set in sets" :key="set.id" class="my-4 set border-sky-500">
                 <div class="flex-1">
                     <h1 class="text-xl font-bold">{{ set.name }}</h1>
                     <p class="text-sm mt-2">{{ set.description }}</p>
                 </div>
-                <div class="ml-3">
+                <div class="ml-2">
                     <router-link
                         :to="`/mc/${set.id}`" 
-                        class="button block w-20 bg-green-500"
+                        class="button inline-block ml-2 bg-green-500"
                     >
                         Quiz!
                     </router-link>
-                    <button 
-                        class="button block w-20 bg-gray-800"
-                    >
-                        Deck!
-                    </button>
-                </div>
-                <div class="ml-2">
                     <router-link 
                         :to="`/set/${set.id}`" 
-                        class="button block w-20 bg-gray-800"
+                        class="button inline-block ml-2 bg-gray-800"
                     >
                         Modify
                     </router-link>
                     <button 
-                        class="button block w-20 bg-red-500" 
+                        class="button inline-block ml-2 bg-red-500" 
                         @click="deleteSet(set.id)"
                     >
                         Delete

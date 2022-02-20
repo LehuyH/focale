@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useRoute } from "vue-router";
 import { v4 } from "uuid";
-import { ref, computed } from "vue";
+import { computed } from "vue";
 import { sets } from "../../state";
 
 const id = useRoute().params.id as string | undefined;
@@ -34,7 +34,9 @@ function deleteQuestion(id: string) {
 </script>
 
 <template>
-    <main class="text-white bg-gray-900 flex flex-col items-center">
+    
+    <main class="text-white flex flex-col items-center">
+        
         <div class="flex flex-col px-32 py-6 flex-1 max-w-screen-lg w-full">
             <div v-if="set">
                 <h1 class="text-3xl font-bold mb-5">Editing {{ set.name }}.</h1>
@@ -57,7 +59,7 @@ function deleteQuestion(id: string) {
                     ></textarea>
                 </div>
 
-                <details class="field">
+                <details class="field" open>
                     <summary class="text-xl font-bold cursor-pointer">
                         Questions
                     </summary>
@@ -96,6 +98,7 @@ function deleteQuestion(id: string) {
 </template>
 
 <style>
+
 .field {
     @apply my-3;
 }
